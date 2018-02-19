@@ -1,0 +1,6 @@
+
+build:wasm --crosstool_top=//toolchain:emscripten
+
+build:wasm --cpu=wasm32
+
+build:wasm --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
